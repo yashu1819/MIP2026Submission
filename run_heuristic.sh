@@ -10,5 +10,4 @@ INSTANCE_NAME=$1
 OUTPUT_DIR=$2
 mkdir -p "$OUTPUT_DIR"
 # Run your solver
- ./fj_solver "$INSTANCE_NAME" "$OUTPUT_DIR"
-# ./fj_solver "$INSTANCE_NAME"
+ ./ensemble_solver "$INSTANCE_NAME" "$OUTPUT_DIR"

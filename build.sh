@@ -87,4 +87,4 @@ nvcc \
   -lCoinUtils -lClp -lOsiClp -lOsi \
  -lcuopt \
     -Xlinker -rpath,"$LIBCUOPT_LIB_DIR" \
-  -o fj_solver
+  -o ensemble_solver
